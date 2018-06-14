@@ -19,7 +19,7 @@ func _process(delta):
 		if counter%num_balls == 0:
 			counter2 += 1
 		counter += 1
-		print('vel updated')
+		print('vel updated now')
 		print(counter2)
 		pokeball.set_velocity(counter2*initial_velocity)
 		get_parent().add_child(pokeball)
